@@ -1,0 +1,178 @@
+body {
+    box-sizing: border-box;
+    background-color: #EDF2C5;
+  }
+  
+  
+  /* header */
+  .header {
+    width: 70%;
+    min-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .header-title {
+    color: #778a50;
+    font-size: 44px;
+    font-family: "Noto Sans";
+    font-weight: 900;
+    margin: 15px 0;
+  }
+
+  .header-img {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 15px;
+    display: flex;
+  }
+
+  .fb-ig-img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+
+  .border-line{
+    height: 25px;
+    width: 80px;
+    padding: 0 10px 0 0;
+    border-left: 1px solid #778a50;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .text-box {
+    color: #778a50;
+    font-size: 14px;
+    font-family: "Noto Sans";
+    font-weight: 700;
+    padding: 3px 7px 0;
+    border: 1px solid #778a50;
+    border-radius: 3px;
+    margin: 0 0 0 10px;
+  }
+  
+
+  /* nav */
+  .nav {
+    width: 70%;
+    min-width: 900px;
+    margin: 0 auto;
+  }
+
+  .nav-list {
+    background-color: #778a50;
+    display: flex;
+    padding: 0;
+    border: 1px solid #778a50;
+    border-radius: 5px;
+    margin: 0;
+  }
+  
+  .nav-list-li {
+    list-style: none;
+    font-family: "Noto Sans";
+    font-weight: 900;
+    color: #edf2c5;
+    padding: 10px 30px;
+  }
+  
+  
+  /* main */
+  .main {
+    width: 70%;
+    min-width: 900px;
+    margin: 0 auto;
+  }
+  
+  /* ------main-up------ */
+  .pumpkin-img {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+  }
+  
+  /* ------main-down------ */
+  .main-down {
+    display: flex;
+    height: 300px;
+  }
+  
+  /* ------main-down-left------ */
+  .main-vegetables {
+    width: 50%;
+    margin-right: 30px;
+  }
+  
+  .vegetables-title {
+    font-size: 16px;
+    font-family: "Noto Sans";
+    font-weight: 900;
+    background-color: #778a50;
+    color: #edf2c5;
+    padding: 10px 20px;
+    border: 1px solid #778a50;
+    border-radius: 5px;
+  }
+  
+  .vegelables-pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .vegetables-img {
+    display: block;
+    width: 100%;
+  }
+  
+  /* ------main-down-right------ */
+  .main-articles {
+    width: 50%;
+    margin-left: 30px;
+  }
+  
+  .articles-title {
+    font-size: 16px;
+    font-family: "Noto Sans";
+    font-weight: 900;
+    background-color: #778a50;
+    color: #edf2c5;
+    padding: 10px 20px;
+    border: 1px solid #778a50;
+    border-radius: 5px;
+  }
+  
+  .articles-content {
+    background-color: #f7fbda;
+    padding: 15px;
+    font-size: 12px;
+    color: #7d7d7d;
+    font-family: "Noto Sans";
+  }
+  
+  .content-p {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #7d7d7d;
+    margin: 0;
+  }
+  
+  .content-info {
+    margin: 10px 0 0;
+  }
+  
+  
+  /* footer */
+  .footer {
+    font-size: 12px;
+    text-align: center;
+    background-color: #778a50;
+    color: #edf2c5;
+    height: 40px;
+    padding: 10px;
+  }
